@@ -40,7 +40,7 @@ public final class Main extends JavaPlugin implements Listener {
     }
 
     private void loadConfig() {
-        // Load chest size from config
+        // Load config
         FileConfiguration config = getConfig();
         joinMessage = config.getString("joinMessage", "[&a+&r] %player% 님이 입장했습니다.");
         leftMessage = config.getString("leftMessage", "[&c-&r] %player% 님이 퇴장했습니다.");
